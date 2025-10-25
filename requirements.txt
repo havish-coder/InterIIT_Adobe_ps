@@ -1,0 +1,20 @@
+# Core deep learning frameworks
+torch==2.3.0
+transformers==4.41.2
+sentence-transformers==2.7.0
+
+accelerate==0.21.0
+
+# For quantization and efficient training (if you have a smaller GPU)
+peft==0.4.0
+bitsandbytes==0.40.2
+
+# Data handling and traditional ML
+pandas==2.2.2
+scikit-learn==1.4.2
+
+# For evaluating model performance
+evaluate==0.4.0
+rouge_score==0.1.2
+
+accelerate
